@@ -1,0 +1,6 @@
+mplfinance
+reportlab
+statsmodels
+python-dotenv
+oandapyV20
+requests
