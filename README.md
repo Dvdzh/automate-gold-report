@@ -2,6 +2,7 @@
 
 ## Description
 This project automates the generation of financial market reports using OANDA data for multiple trading instruments.
+Access to an example report here: [Monthly Report (2022 Week 1)](output/report-2022-1.pdf)
 
 ## Features
 - Automated data collection
