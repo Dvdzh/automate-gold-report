@@ -15,6 +15,20 @@ ACCESS_TOKEN=access_token
 ACCOUNT_ID=account_id
 ```
 
+## Example Usage & Results
+
+Here's an example of the generated report visualizations:
+
+![Gold Price Chart](figures/candlestick.png)
+
+*Figure 1: Gold price movements over time with technical indicators*
+
+![Currency Pairs](figures/decomposition.png)
+
+*Figure 2: Gold decomposition using trend, seasonal and residual*
+
+These visualizations help track market trends and make informed trading decisions.
+
 ## License
 MIT License
 
