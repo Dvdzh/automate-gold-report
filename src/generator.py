@@ -140,7 +140,7 @@ def generate_pdf(year, week):
     data = [
         ["Stat", "Value"],
         ["Mean Close Price", f"{moyenne:.2f} CAD"],
-        ["Variance", f"{variance:.4f}"],
+        # ["Variance", f"{variance:.4f}"],
         ["Standard Deviation", f"{ecart_type:.2f} CAD"],
         ["Skewness", f"{asymetrie:.2f}"],
         ["Kurtosis", f"{kurtosis_exces:.2f}"],
