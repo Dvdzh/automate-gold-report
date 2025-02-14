@@ -24,7 +24,7 @@ Here's an example of the generated report visualizations:
 
 *Figure 1: Gold price movements over time with technical indicators*
 
-![Currency Pairs](figures/decomposition.png)
+![Temporal decomposition](figures/decomposition.png)
 
 *Figure 2: Gold decomposition using trend, seasonal and residual*
 
