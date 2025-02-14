@@ -41,7 +41,7 @@ def plot_candlestick(df, path):
     # Display the figure
     # fig.show()
     # Save the figure to a file
-    fig.savefig(path)
+    fig.savefig(path, dpi=300)
 
     plt.close(fig)
 
@@ -49,6 +49,11 @@ def plot_decomposition(prix_cloture, path):
     decomposition = sm.tsa.seasonal_decompose(prix_cloture, model='additive', period=24)
     fig = decomposition.plot()
     
-    # plt.show()
-    # plt save fig 
-    fig.savefig(path)
+    # fix x axis tick rotation 45 degree and adjust bottom margin so that we can see x axis label
+    for ax in fig.axes:
+        plt.sca(ax)
+        plt.xticks(rotation=45)
+    fig.subplots_adjust(bottom=0.17)
+
+    fig.savefig(path, dpi=300)
+    plt.close(fig)
